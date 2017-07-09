@@ -1,0 +1,96 @@
+﻿빌드 시작: 2016-06-17 오후 11:05:02
+     1>2 노드의 "C:\Users\ysm0622\Desktop\가천대(3-1)\컴퓨터그래픽스\실습\Graphics_Project_Solar_System\Graphics_Project_Solar_System\Graphics_Project_Solar_System.vcxproj" 프로젝트(Build 대상)입니다.
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ysm0622\Desktop\가천대(3-1)\컴퓨터그래픽스\실습\Graphics_Project_Solar_System\x64\Debug\Graphics_Project_Solar_System.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\ysm0622\Desktop\가천대(3-1)\컴퓨터그래픽스\실습\Graphics_Project_Solar_System\x64\Debug\Graphics_Project_Solar_System.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ysm0622\Desktop\가천대(3-1)\컴퓨터그래픽스\실습\Graphics_Project_Solar_System\x64\Debug\Graphics_Project_Solar_System.lib" /MACHINE:X64 /machine:x64 x64\Debug\main.obj
+         x64\Debug\moon.obj
+         x64\Debug\planet.obj
+         x64\Debug\solarsystem.obj
+         x64\Debug\tga.obj
+     1>main.obj : error LNK2019: __imp_glBegin 외부 기호(참조 위치: "void __cdecl display(void)" (?display@@YAXXZ) 함수)에서 확인하지 못했습니다.
+     1>moon.obj : error LNK2001: __imp_glBegin 외부 기호를 확인할 수 없습니다.
+     1>planet.obj : error LNK2001: __imp_glBegin 외부 기호를 확인할 수 없습니다.
+     1>main.obj : error LNK2019: __imp_glBindTexture 외부 기호(참조 위치: "int __cdecl LoadGLTexture(void)" (?LoadGLTexture@@YAHXZ) 함수)에서 확인하지 못했습니다.
+     1>moon.obj : error LNK2001: __imp_glBindTexture 외부 기호를 확인할 수 없습니다.
+     1>planet.obj : error LNK2001: __imp_glBindTexture 외부 기호를 확인할 수 없습니다.
+     1>tga.obj : error LNK2001: __imp_glBindTexture 외부 기호를 확인할 수 없습니다.
+     1>main.obj : error LNK2019: __imp_glClear 외부 기호(참조 위치: "void __cdecl display(void)" (?display@@YAXXZ) 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: __imp_glClearDepth 외부 기호(참조 위치: "void __cdecl init(void)" (?init@@YAXXZ) 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: __imp_glColor3f 외부 기호(참조 위치: "void __cdecl display(void)" (?display@@YAXXZ) 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: __imp_glCullFace 외부 기호(참조 위치: "void __cdecl init(void)" (?init@@YAXXZ) 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: __imp_glDepthFunc 외부 기호(참조 위치: "void __cdecl init(void)" (?init@@YAXXZ) 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: __imp_glDisable 외부 기호(참조 위치: "void __cdecl display(void)" (?display@@YAXXZ) 함수)에서 확인하지 못했습니다.
+     1>planet.obj : error LNK2001: __imp_glDisable 외부 기호를 확인할 수 없습니다.
+     1>main.obj : error LNK2019: __imp_glEnable 외부 기호(참조 위치: "int __cdecl LoadGLTexture(void)" (?LoadGLTexture@@YAHXZ) 함수)에서 확인하지 못했습니다.
+     1>planet.obj : error LNK2001: __imp_glEnable 외부 기호를 확인할 수 없습니다.
+     1>main.obj : error LNK2019: __imp_glEnd 외부 기호(참조 위치: "void __cdecl display(void)" (?display@@YAXXZ) 함수)에서 확인하지 못했습니다.
+     1>moon.obj : error LNK2001: __imp_glEnd 외부 기호를 확인할 수 없습니다.
+     1>planet.obj : error LNK2001: __imp_glEnd 외부 기호를 확인할 수 없습니다.
+     1>main.obj : error LNK2019: __imp_glFlush 외부 기호(참조 위치: "void __cdecl display(void)" (?display@@YAXXZ) 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: __imp_glGenTextures 외부 기호(참조 위치: "int __cdecl LoadGLTexture(void)" (?LoadGLTexture@@YAHXZ) 함수)에서 확인하지 못했습니다.
+     1>tga.obj : error LNK2001: __imp_glGenTextures 외부 기호를 확인할 수 없습니다.
+     1>main.obj : error LNK2019: __imp_glHint 외부 기호(참조 위치: "void __cdecl init(void)" (?init@@YAXXZ) 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: __imp_glLightf 외부 기호(참조 위치: "void __cdecl initLight(void)" (?initLight@@YAXXZ) 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: __imp_glLightfv 외부 기호(참조 위치: "void __cdecl initLight(void)" (?initLight@@YAXXZ) 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: __imp_glLoadIdentity 외부 기호(참조 위치: "void __cdecl reshape(int,int)" (?reshape@@YAXHH@Z) 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: __imp_glMaterialf 외부 기호(참조 위치: "void __cdecl setupMaterial(float,float,float)" (?setupMaterial@@YAXMMM@Z) 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: __imp_glMaterialfv 외부 기호(참조 위치: "void __cdecl setupMaterial(float,float,float)" (?setupMaterial@@YAXMMM@Z) 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: __imp_glMatrixMode 외부 기호(참조 위치: "void __cdecl display(void)" (?display@@YAXXZ) 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: __imp_glPopMatrix 외부 기호(참조 위치: "void __cdecl display(void)" (?display@@YAXXZ) 함수)에서 확인하지 못했습니다.
+     1>moon.obj : error LNK2001: __imp_glPopMatrix 외부 기호를 확인할 수 없습니다.
+     1>planet.obj : error LNK2001: __imp_glPopMatrix 외부 기호를 확인할 수 없습니다.
+     1>main.obj : error LNK2019: __imp_glPushMatrix 외부 기호(참조 위치: "void __cdecl display(void)" (?display@@YAXXZ) 함수)에서 확인하지 못했습니다.
+     1>moon.obj : error LNK2001: __imp_glPushMatrix 외부 기호를 확인할 수 없습니다.
+     1>planet.obj : error LNK2001: __imp_glPushMatrix 외부 기호를 확인할 수 없습니다.
+     1>main.obj : error LNK2019: __imp_glRotatef 외부 기호(참조 위치: "void __cdecl display(void)" (?display@@YAXXZ) 함수)에서 확인하지 못했습니다.
+     1>moon.obj : error LNK2001: __imp_glRotatef 외부 기호를 확인할 수 없습니다.
+     1>planet.obj : error LNK2001: __imp_glRotatef 외부 기호를 확인할 수 없습니다.
+     1>main.obj : error LNK2019: __imp_glShadeModel 외부 기호(참조 위치: "void __cdecl init(void)" (?init@@YAXXZ) 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: __imp_glTexEnvi 외부 기호(참조 위치: "int __cdecl LoadGLTexture(void)" (?LoadGLTexture@@YAHXZ) 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: __imp_glTexImage2D 외부 기호(참조 위치: "int __cdecl LoadGLTexture(void)" (?LoadGLTexture@@YAHXZ) 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: __imp_glTexParameteri 외부 기호(참조 위치: "int __cdecl LoadGLTexture(void)" (?LoadGLTexture@@YAHXZ) 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: __imp_glTranslatef 외부 기호(참조 위치: "void __cdecl display(void)" (?display@@YAXXZ) 함수)에서 확인하지 못했습니다.
+     1>moon.obj : error LNK2001: __imp_glTranslatef 외부 기호를 확인할 수 없습니다.
+     1>planet.obj : error LNK2001: __imp_glTranslatef 외부 기호를 확인할 수 없습니다.
+     1>main.obj : error LNK2019: __imp_glVertex3f 외부 기호(참조 위치: "void __cdecl display(void)" (?display@@YAXXZ) 함수)에서 확인하지 못했습니다.
+     1>moon.obj : error LNK2001: __imp_glVertex3f 외부 기호를 확인할 수 없습니다.
+     1>planet.obj : error LNK2001: __imp_glVertex3f 외부 기호를 확인할 수 없습니다.
+     1>main.obj : error LNK2019: __imp_glViewport 외부 기호(참조 위치: "void __cdecl reshape(int,int)" (?reshape@@YAXHH@Z) 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: gluPerspective 외부 기호(참조 위치: "void __cdecl reshape(int,int)" (?reshape@@YAXHH@Z) 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: gluNewQuadric 외부 기호(참조 위치: "int __cdecl LoadGLTexture(void)" (?LoadGLTexture@@YAHXZ) 함수)에서 확인하지 못했습니다.
+     1>moon.obj : error LNK2001: gluNewQuadric 외부 기호를 확인할 수 없습니다.
+     1>planet.obj : error LNK2001: gluNewQuadric 외부 기호를 확인할 수 없습니다.
+     1>main.obj : error LNK2019: gluQuadricTexture 외부 기호(참조 위치: "int __cdecl LoadGLTexture(void)" (?LoadGLTexture@@YAHXZ) 함수)에서 확인하지 못했습니다.
+     1>moon.obj : error LNK2001: gluQuadricTexture 외부 기호를 확인할 수 없습니다.
+     1>planet.obj : error LNK2001: gluQuadricTexture 외부 기호를 확인할 수 없습니다.
+     1>main.obj : error LNK2019: gluQuadricDrawStyle 외부 기호(참조 위치: "int __cdecl LoadGLTexture(void)" (?LoadGLTexture@@YAHXZ) 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: gluSphere 외부 기호(참조 위치: "void __cdecl display(void)" (?display@@YAXXZ) 함수)에서 확인하지 못했습니다.
+     1>moon.obj : error LNK2001: gluSphere 외부 기호를 확인할 수 없습니다.
+     1>planet.obj : error LNK2001: gluSphere 외부 기호를 확인할 수 없습니다.
+     1>main.obj : error LNK2019: glutInit 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: glutInitDisplayMode 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: glutMainLoop 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: glutPostRedisplay 외부 기호(참조 위치: "void __cdecl mouse_handler(int,int,int,int)" (?mouse_handler@@YAXHHHH@Z) 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: glutDisplayFunc 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: glutReshapeFunc 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: glutKeyboardFunc 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: glutMouseFunc 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: glutPassiveMotionFunc 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: glutTimerFunc 외부 기호(참조 위치: "void __cdecl timer(int)" (?timer@@YAXH@Z) 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: glutKeyboardUpFunc 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: glutWireSphere 외부 기호(참조 위치: "void __cdecl planet(double,double,double)" (?planet@@YAXNNN@Z) 함수)에서 확인하지 못했습니다.
+     1>main.obj : error LNK2019: auxDIBImageLoadA 외부 기호(참조 위치: "struct _AUX_RGBImageRec * __cdecl LoadBMP(char *)" (?LoadBMP@@YAPEAU_AUX_RGBImageRec@@PEAD@Z) 함수)에서 확인하지 못했습니다.
+     1>moon.obj : error LNK2019: gluQuadricNormals 외부 기호(참조 위치: "public: void __cdecl Moon::render(void)" (?render@Moon@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+     1>planet.obj : error LNK2001: gluQuadricNormals 외부 기호를 확인할 수 없습니다.
+     1>tga.obj : error LNK2019: __imp_glTexEnvf 외부 기호(참조 위치: "public: __cdecl TGA::TGA(char *)" (??0TGA@@QEAA@PEAD@Z) 함수)에서 확인하지 못했습니다.
+     1>tga.obj : error LNK2019: __imp_glTexParameterf 외부 기호(참조 위치: "public: __cdecl TGA::TGA(char *)" (??0TGA@@QEAA@PEAD@Z) 함수)에서 확인하지 못했습니다.
+     1>tga.obj : error LNK2019: gluBuild2DMipmaps 외부 기호(참조 위치: "public: __cdecl TGA::TGA(char *)" (??0TGA@@QEAA@PEAD@Z) 함수)에서 확인하지 못했습니다.
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib\opengl32.lib : warning LNK4272: 'X86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib\glu32.lib : warning LNK4272: 'X86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib\glut32.lib : warning LNK4272: 'X86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib\GLAUX.lib : warning LNK4272: 'X86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+     1>C:\Users\ysm0622\Desktop\가천대(3-1)\컴퓨터그래픽스\실습\Graphics_Project_Solar_System\x64\Debug\Graphics_Project_Solar_System.exe : fatal error LNK1120: 51개의 확인할 수 없는 외부 참조입니다.
+     1>"C:\Users\ysm0622\Desktop\가천대(3-1)\컴퓨터그래픽스\실습\Graphics_Project_Solar_System\Graphics_Project_Solar_System\Graphics_Project_Solar_System.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:01.11
