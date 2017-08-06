@@ -9,10 +9,9 @@ Solar System Explorer<br>
 [![PLATFORM](https://img.shields.io/badge/Platform-OpenGL-brightgreen.svg)](#)
 [![MIT LICENSE](https://img.shields.io/badge/License-MIT-orange.svg)](#)
 
-## PHOTOGRAPHY
-This is my Photo Blog.<br>
-I posted all pictures I took during traveling.<br>
-You will most likely find it under [HERE](https://ysm0622.github.io/photo).
+## Solar System Explorer
+Solar System Explorer was developed with C++ & OpenGL.<br>
+You will most likely find video under [HERE](https://www.youtube.com/watch?v=YaPik26iVvU&t=56s).
 
 ## Screenshot
 ![Screenshot](Solar-system-explorer/screenshot1.png)
